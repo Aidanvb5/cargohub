@@ -1,4 +1,4 @@
-from processors.generic_functions import Generic_functions
+from api.processors.generic_functions import Generic_functions
 
 class Locations_processor(Generic_functions):
     def get_items_in_order(self, order_id):
